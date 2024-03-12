@@ -1,6 +1,3 @@
-# OrderAgregator
-Task - Create order agregator API
-
 # Agregátor objednávek
 
 Navrhněte webovou službu, která:
