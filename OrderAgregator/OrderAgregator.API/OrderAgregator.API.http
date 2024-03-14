@@ -1,0 +1,17 @@
+@OrderAgregator.API_HostAddress = https://localhost:7160
+
+POST {{OrderAgregator.API_HostAddress}}/api/order/create
+Content-Type: application/json
+
+[
+  {
+    "productId": "456",
+    "quantity": 5
+  },
+  {
+    "productId": "789",
+    "quantity": 42
+  }
+]
+
+###
