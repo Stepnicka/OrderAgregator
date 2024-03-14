@@ -59,6 +59,8 @@ namespace OrderAgregator.API.Cache.SqLiteCache
 	                    [Quantity]		INTEGER		NOT NULL,
                         [State]         INTEGER     NOT NULL
                     );
+
+                    CREATE INDEX IF NOT EXISTS [IDX_Order_state] ON [Order]([State]);
                 ";
 
                 command.ExecuteNonQuery();
